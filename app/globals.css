@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #2979FF;
+  --secondary: #1976D2;
+  --tertiary: #90CAF9;
+  --background: #FFFFFF;
+}
+
+body {
+  background-color: var(--background);
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+}
+
