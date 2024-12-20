@@ -1,0 +1,26 @@
+{
+  "name": "docit-website",
+  "version": "1.0.0",
+  "description": "Website for DocIt",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next build && next export"
+  },
+  "dependencies": {
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "14.1.0",
+    "tailwindcss": "^3.4.1",
+    "postcss": "^8.4.35",
+    "autoprefixer": "^10.4.17",
+    "lucide-react": "^0.343.0"
+  },
+  "devDependencies": {
+      "typescript": "^5.3.3",
+      "@types/react": "^18.2.60",
+      "@types/node": "^20.11.24"
+  }
+}
