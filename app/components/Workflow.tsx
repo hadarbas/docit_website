@@ -33,7 +33,7 @@ const tutorial = await response.json();`}
                 viewBox="0 0 300 92"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                className="w-full h-full"
+                className="h-full max-w-[300px]"
               >
                 {/* Title - Centered */}
                 <text x="150" y="20" fill="#111827" fontSize="16" fontWeight="600" textAnchor="middle">
