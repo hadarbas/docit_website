@@ -22,13 +22,13 @@ const tutorial = await response.json();`}
               </code>
             </pre>
           </div>
-          <div className="bg-white p-8 rounded-lg shadow-md">
+          <div className="bg-white p-8 rounded-lg shadow-md flex flex-col">
             <div className="flex items-center mb-4">
               <MousePointerClick className="w-8 h-8 text-[#2979FF] mr-2" />
               <h3 className="text-xl font-semibold text-[#2979FF]">Web Interface</h3>
             </div>
             <p className="text-gray-600 mb-4">Share, transform, done. No coding needed</p>
-            <div className="bg-gray-100 p-4 rounded-md h-[136px] w-full flex items-center justify-center">
+            <div className="bg-gray-100 p-4 rounded-md h-[136px] flex items-center justify-center">
               <svg
                 viewBox="0 0 300 92"
                 fill="none"
