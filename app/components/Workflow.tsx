@@ -12,7 +12,7 @@ export default function Workflow() {
               <h3 className="text-xl font-semibold text-[#2979FF]">API Integration</h3>
             </div>
             <p className="text-gray-600 mb-4">Automate tutorial creation right in your workflow</p>
-            <pre className="bg-gray-100 p-4 rounded-md text-sm overflow-x-auto">
+            <pre className="bg-gray-100 p-4 rounded-md text-sm overflow-x-auto max-w-full">
               <code className="language-javascript">
                 {`const response = await fetch('https://api.example.com/tutorial', {
   method: 'POST',
@@ -28,12 +28,12 @@ const tutorial = await response.json();`}
               <h3 className="text-xl font-semibold text-[#2979FF]">Web Interface</h3>
             </div>
             <p className="text-gray-600 mb-4">Share, transform, done. No coding needed</p>
-            <div className="bg-gray-100 p-4 rounded-md h-[136px] flex items-center justify-center flex-col">
+             <div className="bg-gray-100 p-4 rounded-md flex items-center justify-center flex-col">
               <svg
                 viewBox="0 0 300 92"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-full w-full"
+                className="w-full h-full"
               >
                 {/* Title - Centered */}
                 <text x="150" y="20" fill="#111827" fontSize="16" fontWeight="600" textAnchor="middle">
