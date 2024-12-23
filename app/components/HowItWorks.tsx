@@ -40,10 +40,10 @@ export default function HowItWorks() {
                     </div>
 
                     {/* Code Icon */}
-                     <div className="absolute bottom-0 right-0 w-16 h-16 bg-purple-100 rounded-lg flex items-center justify-center">
-                            <Code2 className="w-8 h-8 text-purple-500" />
-                        </div>
+                     <div className="absolute bottom-0 right-0 translate-x-1/2 translate-y-1/2 w-16 h-16 bg-purple-100 rounded-lg flex items-center justify-center">
+                        <Code2 className="w-8 h-8 text-purple-500" />
                     </div>
+                </div>
                 </div>
 
                 {/* Steps */}
