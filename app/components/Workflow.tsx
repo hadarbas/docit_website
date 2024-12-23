@@ -27,13 +27,13 @@ const tutorial = await response.json();`}
               <MousePointerClick className="w-8 h-8 text-[#2979FF] mr-2" />
               <h3 className="text-xl font-semibold text-[#2979FF]">Web Interface</h3>
             </div>
-            <p className="text-gray-600 mb-4">Share, transform, done. No coding needed</p>
-            <div className="bg-gray-100 p-4 rounded-md flex items-center justify-center flex-col">
+            <div className="text-gray-600 mb-4">Share, transform, done. No coding needed</div>
+            <div className="bg-gray-100 p-4 rounded-md h-[136px] flex items-center justify-center flex-col">
               <svg
                 viewBox="0 0 300 92"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                className="max-w-[300px] h-full"
+                className="h-full max-w-[300px]"
               >
                 {/* Title - Centered */}
                 <text x="150" y="20" fill="#111827" fontSize="16" fontWeight="600" textAnchor="middle">
