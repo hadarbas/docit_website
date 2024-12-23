@@ -29,21 +29,21 @@ export default function HowItWorks() {
 
                 {/* Upload Interface */}
                 <div className="max-w-2xl mx-auto mb-20">
-                <div >
+                <div className="relative">
                     {/* Upload Area */}
-                     <div className="border-2 border-dashed border-gray-200 rounded-lg p-12 flex flex-col items-center justify-center bg-white">
+                    <div className="border-2 border-dashed border-gray-200 rounded-lg p-12 flex flex-col items-center justify-center bg-white">
                         <div className="bg-[#2979FF] rounded-full p-4 mb-4">
                             <ArrowRight className="w-8 h-8 text-white" />
                         </div>
                         <h3 className="text-xl font-semibold mb-2">Upload your video</h3>
                         <p className="text-gray-500">Get instant documentation</p>
-                     </div>
+                    </div>
 
                     {/* Code Icon */}
-                    <div className="absolute -bottom-4 -right-4 w-16 h-16 bg-purple-100 rounded-lg flex items-center justify-center">
-                        <Code2 className="w-8 h-8 text-purple-500" />
+                     <div className="absolute bottom-0 right-0 w-16 h-16 bg-purple-100 rounded-lg flex items-center justify-center">
+                            <Code2 className="w-8 h-8 text-purple-500" />
+                        </div>
                     </div>
-                </div>
                 </div>
 
                 {/* Steps */}
