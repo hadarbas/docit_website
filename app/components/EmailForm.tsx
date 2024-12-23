@@ -85,7 +85,7 @@ export function EmailForm({ buttonText, variant = 'default', icon = null }: { bu
             </button>
 
             {isModalOpen && (
-                <div className="fixed inset-0 bg-gray-500 bg-opacity-75 flex items-center justify-center">
+                <div className="fixed inset-0 bg-gray-500 bg-opacity-75 flex items-center justify-center z-50">
                     <div className="relative w-[300px] p-6 bg-white border rounded-md shadow-md" ref={modalRef}>
                          <div className="flex justify-between items-center mb-4">
                             <h3 className="text-lg font-semibold">{buttonText}</h3>
