@@ -6,13 +6,13 @@ export default function Workflow() {
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold mb-12 text-center text-black">Use DocIt Your Way</h2>
         <div className="grid md:grid-cols-2 gap-8">
-          <div className="bg-white p-8 rounded-lg shadow-md">
+          <div className="bg-white p-8 rounded-lg shadow-md flex flex-col">
             <div className="flex items-center mb-4">
               <Code className="w-8 h-8 text-[#2979FF] mr-2" />
               <h3 className="text-xl font-semibold text-[#2979FF]">API Integration</h3>
             </div>
             <p className="text-gray-600 mb-4">Automate tutorial creation right in your workflow</p>
-            <pre className="bg-gray-100 p-4 rounded-md text-sm overflow-x-auto max-w-full">
+            <pre className="bg-gray-100 p-4 rounded-md text-sm  max-w-full">
               <code className="language-javascript">
                 {`const response = await fetch('https://api.example.com/tutorial', {
   method: 'POST',
@@ -28,7 +28,7 @@ const tutorial = await response.json();`}
               <h3 className="text-xl font-semibold text-[#2979FF]">Web Interface</h3>
             </div>
             <p className="text-gray-600 mb-4">Share, transform, done. No coding needed</p>
-             <div className="bg-gray-100 p-4 rounded-md flex items-center justify-center flex-col">
+            <div className="bg-gray-100 p-4 rounded-md flex items-center justify-center flex-col">
               <svg
                 viewBox="0 0 300 92"
                 fill="none"
