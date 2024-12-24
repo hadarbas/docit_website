@@ -6,11 +6,8 @@ export default function Footer() {
     <footer className="border-t border-gray-200 bg-white">
       <div className="container mx-auto px-4 py-12">
         <div className="flex flex-col md:flex-row items-center justify-between">
-          <div className="flex items-center space-x-4">
-            <Logo className="w-32 h-20" />
-            <span className="text-sm text-gray-600">© 2024 DocIt. All rights reserved.</span>
-          </div>
-          <div className="flex space-x-6 mt-4 md:mt-0">
+
+          <div className="flex flex-col md:flex-row space-x-6 mt-4 md:mt-0 order-1 md:order-2">
             <Link href="/pricing" className="text-sm text-gray-600 hover:text-gray-900">
               Pricing
             </Link>
@@ -27,9 +24,12 @@ export default function Footer() {
               Privacy Policy
             </Link>
           </div>
+           <div className="flex items-center space-x-4 order-2 md:order-1">
+             <Logo className="w-32 h-20" />
+              <span className="text-sm text-gray-600">© 2024 DocIt. All rights reserved.</span>
+           </div>
         </div>
       </div>
     </footer>
   )
 }
-
