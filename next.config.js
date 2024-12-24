@@ -2,6 +2,10 @@
 const nextConfig = {
     output: 'export',
     distDir: 'dist',
-  };
-  
-  module.exports = nextConfig;
+    images: {
+      unoptimized: true,
+    },
+    assetPrefix: '/',
+};
+
+module.exports = nextConfig;
