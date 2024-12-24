@@ -59,11 +59,14 @@ const tutorial = await response.json();`}
                   </text>
                 </g>
 
-                {/* Create Button - Single line text centered */}
+                {/* Create Button - Two lines centered */}
                 <g transform="translate(190, 35)">
                   <rect width="80" height="55" rx="4" fill="#2979FF" />
-                  <text x="40" y="33" fill="white" fontSize="13" textAnchor="middle" fontWeight="500">
-                    Create Tutorial
+                  <text x="40" y="28" fill="white" fontSize="12" textAnchor="middle" fontWeight="500">
+                    Create
+                  </text>
+                  <text x="40" y="42" fill="white" fontSize="12" textAnchor="middle" fontWeight="500">
+                    Tutorial
                   </text>
                 </g>
               </svg>
