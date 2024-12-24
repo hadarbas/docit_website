@@ -6,7 +6,7 @@ const openSans = Open_Sans({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'DocIt',
-  description: 'Turn videos into tutorials with DocIt',
+  description: 'From Video to Tutorial in Seconds',
 }
 
 export default function RootLayout({
