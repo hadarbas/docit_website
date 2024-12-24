@@ -1,7 +1,5 @@
 import Logo from './Logo'
-import { Code } from 'lucide-react'
-import Link from 'next/link'
-import { EmailForm } from './EmailForm'
+import { EmailCaptureForm } from './EmailCaptureForm'
 
 export default function Hero() {
     return (
@@ -14,10 +12,7 @@ export default function Hero() {
             <div className="lg:w-1/2">
                 <h2 className="text-4xl lg:text-5xl font-bold mb-4 text-black">From Video to Tutorial in Seconds</h2>
                 <p className="text-xl mb-8 text-gray-800">Stop writing tutorials manually. Turn your product videos into clear, professional how-to guides that your users will love.</p>
-                <div className="flex flex-col sm:flex-row gap-4">
-                <EmailForm buttonText="Join Early Access" />
-                <EmailForm buttonText="Request API Access" variant="outline" icon={<Code className="mr-2 h-4 w-4" />} />
-                </div>
+                 <EmailCaptureForm />
             </div>
             <div className="lg:w-1/2 w-full">
                 <svg 
@@ -61,23 +56,23 @@ export default function Hero() {
                     <circle cx="0" cy="60" r="3" fill="#2979FF"/>
                     <text x="10" y="64">Ready to share</text>
                 </g>
-                
-                {/* Button - Smaller and properly positioned */}
-                <rect x="360" y="270" width="85" height="30" rx="15" fill="#2979FF"/>
-                <text x="372" y="290" fontFamily="Open Sans, sans-serif" fontSize="12" fill="white">Start Now →</text>
+                    
+                    {/* Button - Smaller and properly positioned */}
+                    <rect x="360" y="270" width="85" height="30" rx="15" fill="#2979FF"/>
+                    <text x="372" y="290" fontFamily="Open Sans, sans-serif" fontSize="12" fill="white">Start Now →</text>
 
-                {/* Simple Arrow */}
-                <path 
+                    {/* Simple Arrow */}
+                    <path 
                     d="M290 200 L330 200" 
                     stroke="#2979FF" 
                     strokeWidth="2"
-                />
-                <path 
+                    />
+                    <path 
                     d="M320 190 L330 200 L320 210" 
                     stroke="#2979FF" 
                     strokeWidth="2"
                     fill="none"
-                />
+                    />
                 </svg>
             </div>
             </div>
