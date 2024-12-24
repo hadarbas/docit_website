@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'DocIt',
   description: 'From Video to Tutorial in Seconds',
    icons: {
-    icon: '/favicon.ico',
+    icon: 'favicon.ico',
    },
 }
 
