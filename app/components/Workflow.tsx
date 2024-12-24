@@ -37,35 +37,35 @@ const tutorial = await response.json();`}
             <p className="text-sm md:text-base text-gray-600 mb-6">Share, transform, done. No coding needed</p>
             <div className="bg-gray-100 p-4 rounded-md flex-grow flex items-center justify-center">
               <svg
-                viewBox="0 0 300 100"
+                viewBox="0 0 300 85"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
                 className="w-full max-w-[400px]"
                 preserveAspectRatio="xMidYMid meet"
               >
                 {/* Title - Higher position */}
-                <text x="150" y="25" fill="#111827" fontSize="16" fontWeight="600" textAnchor="middle">
+                <text x="150" y="20" fill="#111827" fontSize="16" fontWeight="600" textAnchor="middle">
                   Create a Tutorial
                 </text>
 
                 {/* Upload Area - Smaller */}
-                <rect x="30" y="35" width="140" height="55" rx="4" fill="transparent" stroke="#E5E7EB" strokeWidth="2" strokeDasharray="4 4" />
+                <rect x="30" y="30" width="140" height="45" rx="4" fill="transparent" stroke="#E5E7EB" strokeWidth="2" strokeDasharray="4 4" />
 
                 {/* Upload Icon and Text - Adjusted */}
-                <g transform="translate(100, 50)">
-                  <path d="M-10 10 L0 0 L10 10 M0 0 L0 20" stroke="#6B7280" strokeWidth="2" />
-                  <text y="35" fill="#6B7280" fontSize="13" textAnchor="middle">
+                <g transform="translate(100, 42)">
+                  <path d="M-10 8 L0 0 L10 8 M0 0 L0 16" stroke="#6B7280" strokeWidth="2" />
+                  <text y="30" fill="#6B7280" fontSize="13" textAnchor="middle">
                     Upload video
                   </text>
                 </g>
 
                 {/* Create Button - Two lines centered */}
-                <g transform="translate(190, 35)">
-                  <rect width="80" height="55" rx="4" fill="#2979FF" />
-                  <text x="40" y="28" fill="white" fontSize="12" textAnchor="middle" fontWeight="500">
+                <g transform="translate(190, 30)">
+                  <rect width="80" height="45" rx="4" fill="#2979FF" />
+                  <text x="40" y="23" fill="white" fontSize="12" textAnchor="middle" fontWeight="500">
                     Create
                   </text>
-                  <text x="40" y="42" fill="white" fontSize="12" textAnchor="middle" fontWeight="500">
+                  <text x="40" y="37" fill="white" fontSize="12" textAnchor="middle" fontWeight="500">
                     Tutorial
                   </text>
                 </g>
