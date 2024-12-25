@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1976D2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#90CAF9;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- White Background -->
+  <rect width="1200" height="630" fill="white"/>
+  
+  <!-- Centered Logo Group - Scaled up 2x -->
+  <g transform="translate(360,150) scale(2)">
+    <!-- Logo Icon -->
+    <path d="M20,20 L60,60 L20,100 L20,20 Z M80,40 L180,40 M80,60 L160,60 M80,80 L140,80" 
+          fill="none" 
+          stroke="url(#blueGradient)" 
+          stroke-width="12" 
+          stroke-linejoin="round" 
+          stroke-linecap="round" />
+    
+    <!-- Company Name -->
+    <text x="120" y="140" font-family="Open Sans, sans-serif" font-size="24" font-weight="700" fill="#000000" text-anchor="middle">DocIt</text>
+  </g>
+  
+  <!-- Tagline -->
+  <text x="600" y="480" font-family="Open Sans, sans-serif" font-size="32" fill="#666666" text-anchor="middle">Turn videos into tutorials in seconds</text>
+</svg>
