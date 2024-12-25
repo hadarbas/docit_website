@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'website',
     images: [{
-      url: '/og-image.png',
+      url: 'https://getdocit.com/og-image.png', // Changed to absolute URL
       width: 1200,
       height: 630,
       alt: 'DocIt - Turn videos into tutorials in seconds'
@@ -29,8 +29,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'DocIt',
     description: 'Turn videos into tutorials in seconds',
-    creator: '@docit',
-    images: ['/og-image.png']
+    images: ['https://getdocit.com/og-image.png'] // Changed to absolute URL
   },
   viewport: {
     width: 'device-width',
