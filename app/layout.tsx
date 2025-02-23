@@ -48,6 +48,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={openSans.className}>
+      <head>
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta name="slack-app-id" content="A08ECKML9AP" />
+      </head>
       <body>{children}</body>
     </html>
   )
